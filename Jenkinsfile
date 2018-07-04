@@ -1,5 +1,5 @@
 node {  
     stage('Build') {
-        sh 'python test.py' 
+        sh 'python -m py_compile test.py' 
     }
 }
