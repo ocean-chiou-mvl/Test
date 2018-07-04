@@ -1,3 +1,5 @@
-node {
-    echo "Hello World!"
+node {  
+    stage('Build') {
+        sh 'python test.py' 
+    }
 }
